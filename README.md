@@ -1,1 +1,6 @@
 # Lista-de-tarefas
+Este programa é uma lista de tarefas simples que permite adicionar, excluir, atualizar e mostrar tarefas. Ele começa definindo uma lista vazia chamada "tasks" e, em seguida, cria quatro funções para realizar as operações mencionadas.
+A primeira função, "add_task()", pede ao usuário que insira uma tarefa e, em seguida, adiciona essa tarefa à lista "tasks". A segunda função, "delete_task()", pede ao usuário que insira uma tarefa e, em seguida, verifica se essa tarefa está na lista "tasks". Se estiver, a função a remove da lista; se não estiver, a função informa ao usuário que a tarefa não foi encontrada na lista.
+A terceira função, "update_task()", pede ao usuário que insira uma tarefa e verifica se ela está na lista "tasks". Se estiver, a função pede uma nova tarefa e a substitui na posição da tarefa antiga. Se a tarefa não estiver na lista, a função informa ao usuário que a tarefa não foi encontrada.
+A última função, "show_tasks()", simplesmente mostra todas as tarefas na lista "tasks".
+Finalmente, o programa entra em um loop while que apresenta um menu de opções para o usuário selecionar. Dependendo da opção selecionada, o programa chama a função apropriada ou encerra o programa se o usuário selecionar a opção "0". Se o usuário selecionar uma opção inválida, o programa informa isso e apresenta novamente o menu.
